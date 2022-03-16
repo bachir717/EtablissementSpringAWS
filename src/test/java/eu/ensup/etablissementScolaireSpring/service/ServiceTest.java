@@ -42,6 +42,7 @@ public class ServiceTest
     @Test
     public void TestGetEtudiantWithMock() {
         try {
+
             Etudiant cheriNotMocked = new Etudiant("Cherif", "Cherif.cherif@gmail.com", "80 B rue de Chartres", "0634779411", "thomas", "M25w6WUHN7hlLG1EEDioMrPdQVweE0qE4lr5vEBHg/M=", "hcjuvzSHHCg56u/kwr4gDZ1UWRQ=", new Date(new SimpleDateFormat("yyyy/MM/dd").parse("1999/08/23").getTime()));
 
             when(etudiantDao.getById(1)).thenReturn(etudiantDao.getById(1));

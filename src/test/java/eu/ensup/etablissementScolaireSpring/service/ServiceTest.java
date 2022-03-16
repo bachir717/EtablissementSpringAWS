@@ -5,12 +5,6 @@ import static org.mockito.Mockito.*;
 
 import eu.ensup.etablissementScolaireSpring.dao.EtudiantDao;
 import eu.ensup.etablissementScolaireSpring.domaine.Etudiant;
-import eu.ensup.etablissementScolaireSpring.exception.ServiceException;
-import eu.ensup.etablissementScolaireSpring.exception.coursExceptions.GetCoursServiceException;
-import eu.ensup.etablissementScolaireSpring.exception.directeurExceptions.GetDirecteurServiceException;
-import eu.ensup.etablissementScolaireSpring.exception.enseignantExceptions.GetEnseignantServiceException;
-import eu.ensup.etablissementScolaireSpring.exception.etudiantExceptions.GetEtudiantServiceException;
-import eu.ensup.etablissementScolaireSpring.exceptions.DaoException;
 import org.hamcrest.MatcherAssert;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;

@@ -15,7 +15,7 @@ services:
     ports:
       - '5438:5432'
     volumes:
-      - '../postgres-data:/var/lib/postgresql/data'
+      - '../db-data:/var/lib/mysql/data'
       - './video.sql:/docker-entrypoint-initdb.d/video.sql'
   spring-app:
     container_name: spring-app

@@ -20,8 +20,8 @@
           - docker-compose
     - name: Clone a github repository
       git:
-        repo: https://github.com/Thomas-Lacomblez/demo-springboot.git
-        dest: /demo-springboot/
+        repo: https://github.com/bachir717/EtablissementSpringAWS.git
+        dest: /EtablissementSpringAWS/
         clone: yes
         update: yes
     - name: install prerequisites

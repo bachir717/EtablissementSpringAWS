@@ -1,0 +1,17 @@
+<!DOCTYPE HTML>
+<html lang="fr" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8" />
+    <title>Welcome</title>
+    <link rel="stylesheet" type="text/css" th:href="@{/css/style.css}"/>
+</head>
+<body>
+<tbody>
+<tr th:each="cours: ${cours}">
+    <td th:text="${cours.id}" />
+    <td th:text="${cours.nom}" />
+</tr>
+</tbody>
+</body>
+
+</html>

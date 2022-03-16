@@ -5,7 +5,7 @@
 1. [Prérequis](#prérequis)
 2. [Lancer l'application avec docker & docker-compose](#docker)
 3. [Lancer l'application sur une Ec2 aws avec terraform et ansible](#terraform)
-4. [Tester notre application](#test)
+
 
 
 ## Prérequis <a name="prérequis"></a>
@@ -25,11 +25,11 @@
 - Avoir des connaissances en système et réseaux
 
 
-## Lancer l'application avec docker & docker-compose <a name="docker"></a> gfghfgfhhfhfg
+## Lancer l'application avec docker & docker-compose <a name="docker"></a> 
 
 - Récupérer le repository.
 - ouvrer un terminal ou une invite de commande à la racine du repository
-- effectuer la commande `docker-compose up -d`
+- effectuer la commande `docker-compose up -d
 - attendez la fin de la commande
 
 Maintenant vous pouvez accéder à l'application à l'adresse [localhost](http://localhost)
@@ -61,7 +61,7 @@ Pour la phrase vous pouvez laisser vide et valider.
 
 Vous avez maintenant une clé ssh public et privé ! (vous les trouverez sous linux par défaut dans `~/.ssh/id_rsa` ou dans le chemin que vous avez précisé).
 
-### Executer Terraform fghjkl
+### Executer Terraform 
 
 - Récupérer le repository.
 - ouvrer dans un terminal ou une invite de commande le dossier `terraform` du repository 
@@ -91,7 +91,3 @@ Pour accéder au site et vérifier que tout à bien fonctionner accéder via l'a
 **ATTENTION** L'https n'est pas mis en place il faudra donc y accéder via http://L'ipPublicDeVotreVM 
 
 
-## Tester notre application <a name="test"></a>
-
-Nous avons déjà déployé notre application sur AWS vous pouvez y accéder [ici](http://18.190.18.44)
-Toujours avec les identifiants : `tlacomblez` & mdp : `123456789`
